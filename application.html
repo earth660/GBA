@@ -223,6 +223,17 @@
 	<!-- / フッター -->
 	<address></address>
 </div>
+<script>
+$(function(){
+	// ページ内スクロール
+	$("#sidebar a").click(function(){
+		var i = $("#sidebar a").index(this)
+		var section = $("section.content").eq(i).offset().top;
+		$('html,body').animate({ scrollTop: section -20 }, 500);
+		return false;
+	});
+});
+</script>
 
 </body>
 </html>
