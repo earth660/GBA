@@ -34,3 +34,86 @@
 .choose p:nth-of-type(1){
 	margin-top: 20px;
 }
+
+.voice{
+	width: 48%;
+	height: 300px;
+	margin: 3% 2% 0 0;
+	background: url(../images/voiceBg.png);
+	border-radius: 5px;
+	font-weight: 900;
+	float: left;
+}
+
+.voice img{
+	margin: 20px 10px 10px 20px;
+	float: left;
+}
+
+.voice h1{
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.voice p:nth-of-type(1){
+	padding-top: 1em;
+}
+
+.voice .mini{
+	font-size: 11px;
+	margin-top: -10px;
+}
+
+.voice hr{
+	width: 210px;
+	height: 2px;
+	background: #ccc;
+	border: none;
+	margin-top: -3px;
+	margin-left: 0px;
+}
+
+.voice .text{
+	padding: 2em 20px;
+	display: block;
+	font-size: 11px;
+}
+
+.voice .text p{margin-top: -20px;}
+
+@media only screen and (max-width:959px){
+.voice{
+	width: 48%;
+	height: 280px;
+}
+
+.voice h1{
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.voice hr{
+	width: 280px;
+}
+
+}
+
+/* スマートフォン 横(ランドスケープ) */
+@media only screen and (max-width:640px){
+#header span.menu{float: left;left: 50%;margin:2% -25%;}
+.voice{
+	width: 95%;
+}
+
+.voice hr{
+	width: 210px;
+}
+
+.voice .text p{margin-top: -20px;}
+
+}
+
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+#header span.menu{float: left;left: 50%;margin:2% -40%;}
+}
