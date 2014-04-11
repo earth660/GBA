@@ -59,8 +59,10 @@ height:110px;
 }
 
 #header hr{
-padding:5px 0 10px 10px;
+padding:0 0 10px 10px;
 font-size:12px;
+top: 0;
+margin-top: 0;;
 background: #161b61;
 }
 
@@ -76,7 +78,7 @@ float:left;
 .logo img{
 width:auto;
 float:left;
-padding:0 5px 0 10px;
+padding:10px 5px 0 25px;
 }
 
 .logo span{display:block;}
@@ -201,10 +203,10 @@ section.content p{margin-bottom:5px;}
 h3.heading{
 font-weight:normal;
 font-size: 20px;
-padding: 0;
+padding:0 0.5em;
 line-height:36px;
 color:#161b61;
-background:url(../images/heading3.png) repeat-x 0 0;
+border-bottom: solid 8px;
 }
 
 section.content img{
