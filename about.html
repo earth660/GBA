@@ -75,8 +75,8 @@
 		<section class="content">
 			<h3 class="heading">理念</h3>
 			<article>
-				<h1 style="font-size: 20px;">～就活コーチングを通してグローバルに通用する学生を育成する～</h1>
-				<p style="font-size: 15px;">高い専門性とGBA独自の就活コーチングを通じて、就職活動はもちろんのこと、<br />
+				<h1 style="font-size: 20px; text-align: center;">～就活コーチングを通してグローバルに通用する学生を育成する～</h1>
+				<p style="font-size: 15px; text-align: center;">高い専門性とGBA独自の就活コーチングを通じて、就職活動はもちろんのこと、<br />
 				これからのグローバルビジネス社会で必要なマインド、スキルを身に付け、<br />
 				ひとり一人の可能性を最大限に高め、人間力の高い人財を育成します。</p>
 			</article>
@@ -93,14 +93,7 @@
 	    <section class="content" id="gallery">
 			<h3 class="heading">フォトアルバム</h3>
 			<article>
-<!--
-				<figure class="grid"><a href="subpage.html"><img src="images/gallery1.jpg" width="217" height="140" alt=""></a></figure>
-				<figure class="grid"><a href="subpage.html"><img src="images/gallery2.jpg" width="217" height="140" alt=""></a></figure>
-				<figure class="grid"><a href="subpage.html"><img src="images/gallery3.jpg" width="217" height="140" alt=""></a></figure>
-				<figure class="grid"><a href="subpage.html"><img src="images/gallery4.jpg" width="217" height="140" alt=""></a></figure>
-				<figure class="grid"><a href="subpage.html"><img src="images/gallery5.jpg" width="217" height="140" alt=""></a></figure>
-				<figure class="grid"><a href="subpage.html"><img src="images/gallery6.jpg" width="217" height="140" alt=""></a></figure>
--->
+
 			</article>
 		</section>
 
@@ -153,7 +146,7 @@ $(function(){
 	// ページ内スクロール
 	$("#sidebar a").click(function(){
 		var i = $("#sidebar a").index(this)
-		var section = $("section.content").eq(i).offset().top;
+		var section = $("section.content").eq(i+1).offset().top;
 		$('html,body').animate({ scrollTop: section -20 }, 500);
 		return false;
 	});
