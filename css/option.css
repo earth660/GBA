@@ -80,3 +80,40 @@
 }
 
 .voice .text p{margin-top: -20px;}
+
+@media only screen and (max-width:959px){
+.voice{
+	width: 48%;
+	height: 280px;
+}
+
+.voice h1{
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.voice hr{
+	width: 280px;
+}
+
+}
+
+/* スマートフォン 横(ランドスケープ) */
+@media only screen and (max-width:640px){
+#header span.menu{float: left;left: 50%;margin:2% -25%;}
+.voice{
+	width: 95%;
+}
+
+.voice hr{
+	width: 210px;
+}
+
+.voice .text p{margin-top: -20px;}
+
+}
+
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+#header span.menu{float: left;left: 50%;margin:2% -40%;}
+}
