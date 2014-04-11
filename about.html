@@ -153,7 +153,7 @@ $(function(){
 	// ページ内スクロール
 	$("#sidebar a").click(function(){
 		var i = $("#sidebar a").index(this)
-		var section = $("section.content").eq(i).offset().top;
+		var section = $("section.content").eq(i+1).offset().top;
 		$('html,body').animate({ scrollTop: section -20 }, 500);
 		return false;
 	});
