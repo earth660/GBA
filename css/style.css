@@ -23,6 +23,7 @@ font-size:small;
 font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 line-height:1.5;
 background:#fff;
+font-weight: 900;
 -webkit-text-size-adjust: none;
 }
 
@@ -201,10 +202,17 @@ section.content p{margin-bottom:5px;}
 h3.heading{
 font-weight:normal;
 font-size: 20px;
-padding:0 0.5em;
+padding:0 1em;
 line-height:36px;
-color:#161b61;
-border-bottom: solid 8px;
+}
+
+h3.heading:before{
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 33px;
+	margin-left: -1em;
+	background: #161b61;
 }
 
 section.content img{
