@@ -20,7 +20,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 color:#333;
 font-size:small;
-font-family:verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 line-height:1.5;
 background:#fff;
 -webkit-text-size-adjust: none;
@@ -200,9 +200,10 @@ section.content p{margin-bottom:5px;}
 
 h3.heading{
 font-weight:normal;
-padding:0 10px;
+font-size: 20px;
+padding: 0;
 line-height:36px;
-color:#fff;
+color:#161b61;
 background:url(../images/heading3.png) repeat-x 0 0;
 }
 
