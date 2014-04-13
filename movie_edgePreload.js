@@ -52,19 +52,17 @@ if(document.addEventListener ){
    aLoader = [
       { load: "edge_includes/jquery-2.0.3.min.js"},
       { load: "edge_includes/edge.3.0.0.min.js"},
-      { load: "animate_edge.js"},
-      { load: "animate_edgeActions.js"}];
+      { load: "movie_edge.js"},
+      { load: "movie_edgeActions.js"}];
 
 if (AdobeEdge.bootstrapLoading) { signaledLoading = true; AdobeEdge.loadResources=doLoadResources; AdobeEdge.playWhenReady=playWhenReady; }
 
 loadResources(aLoader, doDelayLoad);
 
-var plSTF="none",ctrPlS="both",minPlW="400px",maxPlW="1200px",plWidth="100%",plHeight="100%";
+var plSTF="width",ctrPlS="both",minPlW="300px",maxPlW="900px",plWidth="550px",plHeight="330px";
 
 preContent={dom: [ ]};//simpleContent
 
-dlContent={
-    dom: [
-]};//simpleContent
+dlContent={dom: [ ]};//simpleContent
 
-})( "EDGE-32163828");
+})( "EDGE-7290059");
