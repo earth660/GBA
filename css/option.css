@@ -92,10 +92,20 @@ div.iframeWrap{
 }
 
 .EDGE-7290059{
-	top: 80px;
+	top: 80px
 }
 
 .gridWrapper{margin-top: 190px;}
+.step img{cursor: pointer;}
+.step p{padding: 0.5em 2em;}
+h3.step1{border-top: solid 2px #2a6093;}
+h3.step1:before{background: #2a6093;}
+h3.step2{border-top: solid 2px #7bc2bc;}
+h3.step2:before{background: #7bc2bc;}
+h3.step3{border-top: solid 2px #e4c592;}
+h3.step3:before{background: #e4c592;}
+h3.step4{border-top: solid 2px #a22b29;}
+h3.step4:before{background: #a22b29;}
 
 @media only screen and (max-width:959px){
 .voice{
