@@ -59,7 +59,7 @@ if (AdobeEdge.bootstrapLoading) { signaledLoading = true; AdobeEdge.loadResource
 
 loadResources(aLoader, doDelayLoad);
 
-var plSTF="width",ctrPlS="both",minPlW="300px",maxPlW="900px",plWidth="550px",plHeight="330px";
+var plSTF="width",ctrPlS="both",minPlW="300px",maxPlW="900px",plWidth="550px",plHeight="300px";
 
 preContent={dom: [ ]};//simpleContent
 

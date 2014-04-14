@@ -90,15 +90,12 @@ div.iframeWrap{
     position: relative;
     width: 100%;
 }
- 
-div.iframeWrap iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+.EDGE-7290059{
+	top: 80px;
 }
 
+.gridWrapper{margin-top: 190px;}
 
 @media only screen and (max-width:959px){
 .voice{
@@ -113,6 +110,10 @@ div.iframeWrap iframe{
 
 .voice hr{
 	width: 280px;
+}
+
+.EDGE-7290059{
+	top: 80px;
 }
 
 }
@@ -135,4 +136,28 @@ div.iframeWrap iframe{
 /* スマートフォン 縦(ポートレート) */
 @media only screen and (max-width:480px){
 #header span.menu{float: left;left: 50%;margin:2% -40%;}
+.EDGE-7290059{
+	top: 50px;
+}
+
+.gridWrapper{
+	width: 100%;
+	height: 300px;
+	margin-top: 0px;
+}
+
+.gridWrapper .grid{
+	position: relative;
+	float: left;
+	width: 45%;
+	left: 3%;
+	top: 80px;
+	text-align: center;
+}
+
+.gridWrapper .box{
+	margin: 0;
+	padding: 0;
+}
+
 }
