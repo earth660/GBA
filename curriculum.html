@@ -7,7 +7,8 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/option.css" />
+<link rel="stylesheet" href="css/option.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/animate.css" type="text/css" media="screen"/>
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
@@ -89,37 +90,37 @@
 		
 		<section class="content">
 			<h3 class="heading">グループワーク</h3>
-			<article>
-				<img src="images/group.png" width="350" height="140" alt="" class="" />
+			<article style="text-align:center;">
+				<img src="images/group.png" width="350" height="140" alt=""class="wow fadeInDown animated" />
 			</article>
 		</section>
 
 		<section class="content">
 			<h3 class="heading">個人講座</h3>
 			<article class="step">
-				<img src="images/step1.png" alt="step1" width="160">
-				<img src="images/step2.png" alt="step2" width="160">
-				<img src="images/step3.png" alt="step3" width="160">
-				<img src="images/step4.png" alt="step4" width="160">
+				<img src="images/step1.png" alt="step1" width="160" class="wow fadeInLeft animated" data-wow-delay="0.1s" style="visibility: visible;-webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+				<img src="images/step2.png" alt="step2" width="160" class="wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+				<img src="images/step3.png" alt="step3" width="160" class="wow fadeInLeft animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+				<img src="images/step4.png" alt="step4" width="160" class="wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
 				<br /><br /><br />
-				<h3 class="heading step1 jump">自己分析</h3>
+				<h3 class="heading step1 jump wow fadeInDown animated">自己分析</h3>
 				<p>過去分析編</p>
 				<p>未来分析編</p>
 				<p>自己PR作成</p>
 				<br />
-				<h3 class="heading step2 jump">企業分析</h3>
+				<h3 class="heading step2 jump wow fadeInDown animated">企業分析</h3>
 				<p>ビジョン明確化</p>
 				<p>業界研究</p>
 				<p>企業研究・職種研究</p>
 				<p>志望動機作成</p>
 				<br />
-				<h3 class="heading step3 jump">ES対策</h3>
+				<h3 class="heading step3 jump wow fadeInDown animated">ES対策</h3>
 				<p>基本編</p>
 				<p>応用編</p>
 				<p>実践編①</p>
 				<p>実践編②</p>
 				<br />
-				<h3 class="heading step4 jump">面接対策</h3>
+				<h3 class="heading step4 jump wow fadeInDown animated">面接対策</h3>
 				<p>基本編</p>
 				<p>応用編</p>
 				<p>実践編①</p>
@@ -207,6 +208,7 @@
 	<!-- / フッター -->
 	<address></address>
 </div>
+<script src="js/wow.js"></script>
 <script>
 $(function(){
 	// ページ内スクロール
@@ -226,6 +228,8 @@ $(function(){
 	});
 
 });
+
+ new WOW().init();
 </script>
 
 </body>
