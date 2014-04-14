@@ -274,12 +274,12 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_imgres-8}": [
-                ["style", "top", '152px'],
-                ["style", "height", '41px'],
+            "${_imgres-12}": [
+                ["style", "top", '63px'],
+                ["style", "height", '30px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '393px'],
-                ["style", "width", '111px']
+                ["style", "left", '398px'],
+                ["style", "width", '100px']
             ],
             "${_imgres-4}": [
                 ["style", "top", '114px'],
@@ -290,11 +290,11 @@ var symbols = {
             ],
             "${_Text15}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '7.1%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '11.25%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '63.82%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '7.1%']
             ],
             "${_imgres-1}": [
                 ["style", "top", '63px'],
@@ -312,11 +312,11 @@ var symbols = {
             ],
             "${_Text8}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '5.68%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '8.5%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '32.18%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '5.68%']
             ],
             "${_imgres}": [
                 ["style", "top", '63px'],
@@ -346,19 +346,21 @@ var symbols = {
                 ["style", "left", '51px'],
                 ["style", "width", '100px']
             ],
-            "${_Text18}": [
-                ["style", "top", '27px'],
+            "${_Text14}": [
+                ["style", "top", '31.67%'],
+                ["style", "font-size", '23px'],
+                ["style", "height", '14.75%'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '79px'],
-                ["style", "font-size", '23px']
+                ["style", "left", '60.18%'],
+                ["style", "width", '5.85%']
             ],
             "${_Text4}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '5.68%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '11.25%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '18.55%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '5.68%']
             ],
             "${_imgres-11}": [
                 ["style", "top", '203px'],
@@ -369,11 +371,11 @@ var symbols = {
             ],
             "${_Text10}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '3.9%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '7%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '42.18%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '3.9%']
             ],
             "${_imgres-6}": [
                 ["style", "top", '162px'],
@@ -384,27 +386,27 @@ var symbols = {
             ],
             "${_Text9}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '6.74%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '10.25%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '36.18%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '6.74%']
             ],
             "${_Text7}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '6.21%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '11.25%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '27.64%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '6.21%']
             ],
             "${_Text11}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '4.97%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '7.75%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '46.36%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '4.97%']
             ],
             "${_Text3}": [
                 ["style", "top", '261px'],
@@ -413,11 +415,11 @@ var symbols = {
             ],
             "${_Text5}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '4.26%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '9.75%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '24.18%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '4.26%']
             ],
             "${_imgres-2}": [
                 ["style", "top", '116px'],
@@ -440,44 +442,48 @@ var symbols = {
                 ["style", "left", '287px'],
                 ["style", "width", '100px']
             ],
-            "${_imgres-12}": [
-                ["style", "top", '63px'],
-                ["style", "height", '30px'],
+            "${_Text}": [
+                ["style", "font-weight", '900'],
+                ["style", "left", '11.64%'],
+                ["style", "width", '75.91%'],
+                ["style", "top", '46.33%'],
+                ["style", "text-align", 'center'],
+                ["style", "height", '21.51%'],
+                ["style", "font-family", '\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '398px'],
-                ["style", "width", '100px']
+                ["style", "font-size", '15px']
             ],
-            "${_Text14}": [
-                ["style", "top", '31.67%'],
-                ["style", "width", '5.85%'],
-                ["style", "height", '14.75%'],
+            "${_Text2}": [
+                ["style", "top", '52.67%'],
+                ["style", "font-size", '15px'],
+                ["style", "height", '11%'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '60.18%'],
-                ["style", "font-size", '23px']
+                ["style", "left", '7.64%'],
+                ["style", "width", '84%']
             ],
             "${_Text17}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '10.11%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '13.25%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '71.27%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '10.11%']
             ],
             "${_Text16}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '4.97%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '13.75%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '69.45%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '4.97%']
             ],
             "${_Text13}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '7.1%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '12%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '54.91%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '7.1%']
             ],
             "${_Text6}": [
                 ["style", "top", '281px'],
@@ -501,11 +507,11 @@ var symbols = {
             ],
             "${_Text12}": [
                 ["style", "top", '31.67%'],
-                ["style", "width", '4.61%'],
+                ["style", "font-size", '23px'],
                 ["style", "height", '9.75%'],
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '51.45%'],
-                ["style", "font-size", '23px']
+                ["style", "width", '4.61%']
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
@@ -522,24 +528,18 @@ var symbols = {
                 ["style", "left", '287px'],
                 ["style", "width", '100px']
             ],
-            "${_Text2}": [
-                ["style", "top", '52.67%'],
-                ["style", "width", '84%'],
-                ["style", "height", '11%'],
+            "${_imgres-8}": [
+                ["style", "top", '152px'],
+                ["style", "height", '41px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '7.64%'],
-                ["style", "font-size", '15px']
+                ["style", "left", '393px'],
+                ["style", "width", '111px']
             ],
-            "${_Text}": [
-                ["style", "font-weight", '900'],
-                ["style", "left", '11.64%'],
-                ["style", "width", '75.91%'],
-                ["style", "top", '46.33%'],
-                ["style", "text-align", 'center'],
-                ["style", "height", '21.51%'],
-                ["style", "font-family", '\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif'],
-                ["style", "font-size", '15px'],
-                ["style", "opacity", '0.000000']
+            "${_Text18}": [
+                ["style", "top", '27px'],
+                ["style", "opacity", '0.000000'],
+                ["style", "left", '79px'],
+                ["style", "font-size", '23px']
             ]
         }
     },
@@ -547,59 +547,78 @@ var symbols = {
         "Default Timeline": {
             fromState: "Base State",
             toState: "",
-            duration: 10750,
+            duration: 6500,
             autoPlay: true,
             timeline: [
-                { id: "eid97", tween: [ "style", "${_imgres-11}", "opacity", '1', { fromValue: '0.000000'}], position: 8250, duration: 250 },
-                { id: "eid66", tween: [ "style", "${_map}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid101", tween: [ "style", "${_images}", "opacity", '1', { fromValue: '0.000000'}], position: 8500, duration: 250 },
-                { id: "eid11", tween: [ "style", "${_Text10}", "opacity", '1', { fromValue: '0.000000'}], position: 2500, duration: 250 },
-                { id: "eid80", tween: [ "style", "${_Text10}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid105", tween: [ "style", "${_imgres-7}", "opacity", '1', { fromValue: '0.000000'}], position: 8750, duration: 250 },
+                { id: "eid97", tween: [ "style", "${_imgres-11}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid206", tween: [ "style", "${_imgres-11}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid66", tween: [ "style", "${_map}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid101", tween: [ "style", "${_images}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid207", tween: [ "style", "${_images}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid11", tween: [ "style", "${_Text10}", "opacity", '1', { fromValue: '0.000000'}], position: 1417, duration: 250 },
+                { id: "eid80", tween: [ "style", "${_Text10}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid114", tween: [ "style", "${_imgres-1}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid214", tween: [ "style", "${_imgres-1}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
                 { id: "eid2", tween: [ "style", "${_Text}", "opacity", '1', { fromValue: '0.000000'}], position: 250, duration: 500 },
-                { id: "eid67", tween: [ "style", "${_Text}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid16", tween: [ "style", "${_Text15}", "opacity", '1', { fromValue: '0.000000'}], position: 3750, duration: 250 },
-                { id: "eid81", tween: [ "style", "${_Text15}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid109", tween: [ "style", "${_imgres-5}", "opacity", '1', { fromValue: '0.000000'}], position: 9000, duration: 250 },
-                { id: "eid119", tween: [ "style", "${_imgres}", "opacity", '1', { fromValue: '0.000000'}], position: 9500, duration: 250 },
-                { id: "eid90", tween: [ "style", "${_imgres-8}", "opacity", '1', { fromValue: '0.000000'}], position: 7750, duration: 250 },
-                { id: "eid94", tween: [ "style", "${_imgres-3}", "opacity", '1', { fromValue: '0.000000'}], position: 8000, duration: 250 },
-                { id: "eid89", tween: [ "style", "${_images-1}", "opacity", '1', { fromValue: '0.000000'}], position: 7750, duration: 250 },
-                { id: "eid17", tween: [ "style", "${_Text16}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
-                { id: "eid73", tween: [ "style", "${_Text16}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid4", tween: [ "style", "${_Text2}", "opacity", '1', { fromValue: '0.000000'}], position: 500, duration: 500 },
-                { id: "eid74", tween: [ "style", "${_Text2}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid106", tween: [ "style", "${_imgres-9}", "opacity", '1', { fromValue: '0.000000'}], position: 8750, duration: 250 },
-                { id: "eid12", tween: [ "style", "${_Text11}", "opacity", '1', { fromValue: '0.000000'}], position: 2750, duration: 250 },
-                { id: "eid72", tween: [ "style", "${_Text11}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid8", tween: [ "style", "${_Text7}", "opacity", '1', { fromValue: '0.000000'}], position: 1750, duration: 250 },
-                { id: "eid70", tween: [ "style", "${_Text7}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid15", tween: [ "style", "${_Text14}", "opacity", '1', { fromValue: '0.000000'}], position: 3500, duration: 250 },
-                { id: "eid78", tween: [ "style", "${_Text14}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid10", tween: [ "style", "${_Text9}", "opacity", '1', { fromValue: '0.000000'}], position: 2250, duration: 250 },
-                { id: "eid76", tween: [ "style", "${_Text9}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid118", tween: [ "style", "${_imgres-13}", "opacity", '1', { fromValue: '0.000000'}], position: 9500, duration: 250 },
-                { id: "eid93", tween: [ "style", "${_imgres-6}", "opacity", '1', { fromValue: '0.000000'}], position: 8000, duration: 250 },
-                { id: "eid98", tween: [ "style", "${_imgres-4}", "opacity", '1', { fromValue: '0.000000'}], position: 8250, duration: 250 },
-                { id: "eid114", tween: [ "style", "${_imgres-1}", "opacity", '1', { fromValue: '0.000000'}], position: 9250, duration: 250 },
-                { id: "eid102", tween: [ "style", "${_imgres-2}", "opacity", '1', { fromValue: '0.000000'}], position: 8500, duration: 250 },
-                { id: "eid14", tween: [ "style", "${_Text13}", "opacity", '1', { fromValue: '0.000000'}], position: 3250, duration: 250 },
-                { id: "eid68", tween: [ "style", "${_Text13}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid122", tween: [ "style", "${_Text18}", "opacity", '1', { fromValue: '0.000000'}], position: 10000, duration: 500 },
-                { id: "eid181", tween: [ "style", "${_Text6}", "opacity", '1', { fromValue: '0.000000'}], position: 10250, duration: 500 },
-                { id: "eid126", tween: [ "style", "${_Text3}", "opacity", '1', { fromValue: '0.000000'}], position: 10250, duration: 500 },
-                { id: "eid13", tween: [ "style", "${_Text12}", "opacity", '1', { fromValue: '0.000000'}], position: 3000, duration: 250 },
-                { id: "eid79", tween: [ "style", "${_Text12}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid6", tween: [ "style", "${_Text4}", "opacity", '1', { fromValue: '0.000000'}], position: 1250, duration: 250 },
-                { id: "eid71", tween: [ "style", "${_Text4}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid9", tween: [ "style", "${_Text8}", "opacity", '1', { fromValue: '0.000000'}], position: 2000, duration: 250 },
-                { id: "eid75", tween: [ "style", "${_Text8}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid115", tween: [ "style", "${_imgres-10}", "opacity", '1', { fromValue: '0.000000'}], position: 9250, duration: 250 },
-                { id: "eid7", tween: [ "style", "${_Text5}", "opacity", '1', { fromValue: '0.000000'}], position: 1500, duration: 250 },
-                { id: "eid77", tween: [ "style", "${_Text5}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 },
-                { id: "eid110", tween: [ "style", "${_imgres-12}", "opacity", '1', { fromValue: '0.000000'}], position: 9000, duration: 250 },
-                { id: "eid18", tween: [ "style", "${_Text17}", "opacity", '1', { fromValue: '0.000000'}], position: 4250, duration: 250 },
-                { id: "eid69", tween: [ "style", "${_Text17}", "opacity", '0', { fromValue: '1'}], position: 5500, duration: 1000 }            ]
+                { id: "eid67", tween: [ "style", "${_Text}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid16", tween: [ "style", "${_Text15}", "opacity", '1', { fromValue: '0.000000'}], position: 1833, duration: 250 },
+                { id: "eid81", tween: [ "style", "${_Text15}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid109", tween: [ "style", "${_imgres-5}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid211", tween: [ "style", "${_imgres-5}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid119", tween: [ "style", "${_imgres}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid201", tween: [ "style", "${_imgres}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid90", tween: [ "style", "${_imgres-8}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid209", tween: [ "style", "${_imgres-8}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid94", tween: [ "style", "${_imgres-3}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid203", tween: [ "style", "${_imgres-3}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid89", tween: [ "style", "${_images-1}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid215", tween: [ "style", "${_images-1}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid17", tween: [ "style", "${_Text16}", "opacity", '1', { fromValue: '0.000000'}], position: 1917, duration: 250 },
+                { id: "eid73", tween: [ "style", "${_Text16}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid4", tween: [ "style", "${_Text2}", "opacity", '1', { fromValue: '0.000000'}], position: 250, duration: 500 },
+                { id: "eid74", tween: [ "style", "${_Text2}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid106", tween: [ "style", "${_imgres-9}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid204", tween: [ "style", "${_imgres-9}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid12", tween: [ "style", "${_Text11}", "opacity", '1', { fromValue: '0.000000'}], position: 1500, duration: 250 },
+                { id: "eid72", tween: [ "style", "${_Text11}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid93", tween: [ "style", "${_imgres-6}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid213", tween: [ "style", "${_imgres-6}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid15", tween: [ "style", "${_Text14}", "opacity", '1', { fromValue: '0.000000'}], position: 1750, duration: 250 },
+                { id: "eid78", tween: [ "style", "${_Text14}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid10", tween: [ "style", "${_Text9}", "opacity", '1', { fromValue: '0.000000'}], position: 1333, duration: 250 },
+                { id: "eid76", tween: [ "style", "${_Text9}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid122", tween: [ "style", "${_Text18}", "opacity", '1', { fromValue: '0.000000'}], position: 4500, duration: 500 },
+                { id: "eid216", tween: [ "style", "${_Text18}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid102", tween: [ "style", "${_imgres-2}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid217", tween: [ "style", "${_imgres-2}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid110", tween: [ "style", "${_imgres-12}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid208", tween: [ "style", "${_imgres-12}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid105", tween: [ "style", "${_imgres-7}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid218", tween: [ "style", "${_imgres-7}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid115", tween: [ "style", "${_imgres-10}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid205", tween: [ "style", "${_imgres-10}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid14", tween: [ "style", "${_Text13}", "opacity", '1', { fromValue: '0.000000'}], position: 1667, duration: 250 },
+                { id: "eid68", tween: [ "style", "${_Text13}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid9", tween: [ "style", "${_Text8}", "opacity", '1', { fromValue: '0.000000'}], position: 1250, duration: 250 },
+                { id: "eid75", tween: [ "style", "${_Text8}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid181", tween: [ "style", "${_Text6}", "opacity", '1', { fromValue: '0.000000'}], position: 4750, duration: 500 },
+                { id: "eid219", tween: [ "style", "${_Text6}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid8", tween: [ "style", "${_Text7}", "opacity", '1', { fromValue: '0.000000'}], position: 1167, duration: 250 },
+                { id: "eid70", tween: [ "style", "${_Text7}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid126", tween: [ "style", "${_Text3}", "opacity", '1', { fromValue: '0.000000'}], position: 4750, duration: 500 },
+                { id: "eid212", tween: [ "style", "${_Text3}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid6", tween: [ "style", "${_Text4}", "opacity", '1', { fromValue: '0.000000'}], position: 1000, duration: 250 },
+                { id: "eid71", tween: [ "style", "${_Text4}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid118", tween: [ "style", "${_imgres-13}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid202", tween: [ "style", "${_imgres-13}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid13", tween: [ "style", "${_Text12}", "opacity", '1', { fromValue: '0.000000'}], position: 1583, duration: 250 },
+                { id: "eid79", tween: [ "style", "${_Text12}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid7", tween: [ "style", "${_Text5}", "opacity", '1', { fromValue: '0.000000'}], position: 1083, duration: 250 },
+                { id: "eid77", tween: [ "style", "${_Text5}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid98", tween: [ "style", "${_imgres-4}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid210", tween: [ "style", "${_imgres-4}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid18", tween: [ "style", "${_Text17}", "opacity", '1', { fromValue: '0.000000'}], position: 2000, duration: 250 },
+                { id: "eid69", tween: [ "style", "${_Text17}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 }            ]
         }
     }
 }
