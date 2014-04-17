@@ -267,6 +267,65 @@ var symbols = {
                 text: "オフィシャルスポンサーになって頂いております",
                 align: "center",
                 font: ['\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif', 15, "rgba(0,0,0,1)", "900", "none", "normal"]
+            },
+            {
+                id: 'Text19',
+                type: 'text',
+                rect: ['10px', '244px','530px','31px','auto', 'auto'],
+                opacity: 0,
+                text: "グローバル時代を見据え、留学、",
+                align: "center",
+                font: ['\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', \'ＭＳＰ明朝\', MS PMincho, serif', 15, "rgba(0,0,0,1)", "normal", "none", ""]
+            },
+            {
+                id: 'Text22',
+                type: 'text',
+                rect: ['10px', '269px','530px','36px','auto', 'auto'],
+                opacity: 0,
+                text: "海外インターンも企画・運営しているのは弊社のみ",
+                align: "center",
+                font: ['\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif', 15, "rgba(0,0,0,1)", "400", "none", "normal"]
+            },
+            {
+                id: 'Text21',
+                type: 'text',
+                rect: ['-16px', '32px','581px','31px','auto', 'auto'],
+                opacity: 0,
+                text: "グローバルキャリア支援のワンストップサポート",
+                align: "center",
+                font: ['\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif', 22, "rgba(0,0,0,1)", "900", "none", "normal"]
+            },
+            {
+                id: 'Cebu-1',
+                type: 'image',
+                rect: ['42px', '81px','208px','141px','auto', 'auto'],
+                opacity: 0,
+                fill: ["rgba(0,0,0,0)",im+"Cebu-1.jpg",'0px','0px']
+            },
+            {
+                id: 'sing',
+                type: 'image',
+                rect: ['258px', '81px','303px','170px','auto', 'auto'],
+                opacity: 0,
+                fill: ["rgba(0,0,0,0)",im+"sing.jpg",'0px','0px']
+            },
+            {
+                id: 'Text23',
+                type: 'text',
+                rect: ['252px', '239px','264px','22px','auto', 'auto'],
+                opacity: 0,
+                text: "シンガポールビジネスインターンシップ",
+                align: "center",
+                font: ['\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif', 10, "rgba(0,0,0,1)", "400", "none", "normal"]
+            },
+            {
+                id: 'Text20',
+                type: 'text',
+                rect: ['52px', '240px','188px','21px','auto', 'auto'],
+                opacity: 0,
+                text: "フィリピンセブ島留学",
+                align: "center",
+                font: ['\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', \'ＭＳＰ明朝\', MS PMincho, serif', 10, "rgba(0,0,0,1)", "normal", "none", ""]
             }],
             symbolInstances: [
 
@@ -274,12 +333,12 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_imgres-12}": [
-                ["style", "top", '63px'],
-                ["style", "height", '30px'],
+            "${_imgres-8}": [
+                ["style", "top", '152px'],
+                ["style", "height", '41px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '398px'],
-                ["style", "width", '100px']
+                ["style", "left", '393px'],
+                ["style", "width", '111px']
             ],
             "${_imgres-4}": [
                 ["style", "top", '114px'],
@@ -310,13 +369,10 @@ var symbols = {
                 ["style", "left", '51px'],
                 ["style", "width", '100px']
             ],
-            "${_Text8}": [
-                ["style", "top", '31.67%'],
-                ["style", "font-size", '23px'],
-                ["style", "height", '8.5%'],
+            "${_Text22}": [
+                ["style", "top", '269px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '32.18%'],
-                ["style", "width", '5.68%']
+                ["style", "font-size", '15px']
             ],
             "${_imgres}": [
                 ["style", "top", '63px'],
@@ -346,13 +402,11 @@ var symbols = {
                 ["style", "left", '51px'],
                 ["style", "width", '100px']
             ],
-            "${_Text14}": [
-                ["style", "top", '31.67%'],
-                ["style", "font-size", '23px'],
-                ["style", "height", '14.75%'],
+            "${_Text18}": [
+                ["style", "top", '27px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '60.18%'],
-                ["style", "width", '5.85%']
+                ["style", "left", '79px'],
+                ["style", "font-size", '23px']
             ],
             "${_Text4}": [
                 ["style", "top", '31.67%'],
@@ -361,6 +415,13 @@ var symbols = {
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '18.55%'],
                 ["style", "width", '5.68%']
+            ],
+            "${_Cebu-1}": [
+                ["style", "top", '81px'],
+                ["style", "height", '141px'],
+                ["style", "opacity", '0.000000'],
+                ["style", "left", '42px'],
+                ["style", "width", '208px']
             ],
             "${_imgres-11}": [
                 ["style", "top", '203px'],
@@ -377,6 +438,15 @@ var symbols = {
                 ["style", "left", '42.18%'],
                 ["style", "width", '3.9%']
             ],
+            "${_Text20}": [
+                ["style", "top", '240px'],
+                ["style", "text-align", 'center'],
+                ["style", "opacity", '0.000000'],
+                ["style", "height", '21px'],
+                ["style", "font-family", '\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', \'ＭＳＰ明朝\', MS PMincho, serif'],
+                ["style", "left", '52px'],
+                ["style", "font-size", '10px']
+            ],
             "${_imgres-6}": [
                 ["style", "top", '162px'],
                 ["style", "height", '25px'],
@@ -391,6 +461,16 @@ var symbols = {
                 ["style", "opacity", '0.000000'],
                 ["style", "left", '36.18%'],
                 ["style", "width", '6.74%']
+            ],
+            "${_Text19}": [
+                ["style", "top", '244px'],
+                ["style", "opacity", '0.000000'],
+                ["style", "text-align", 'center'],
+                ["style", "width", '530px'],
+                ["style", "height", '31px'],
+                ["style", "font-family", '\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', \'ＭＳＰ明朝\', MS PMincho, serif'],
+                ["style", "left", '10px'],
+                ["style", "font-size", '15px']
             ],
             "${_Text7}": [
                 ["style", "top", '31.67%'],
@@ -421,6 +501,14 @@ var symbols = {
                 ["style", "left", '24.18%'],
                 ["style", "width", '4.26%']
             ],
+            "${_Text23}": [
+                ["style", "top", '239px'],
+                ["style", "font-size", '10px'],
+                ["style", "height", '22px'],
+                ["style", "opacity", '0.000000'],
+                ["style", "left", '252px'],
+                ["style", "width", '264px']
+            ],
             "${_imgres-2}": [
                 ["style", "top", '116px'],
                 ["style", "height", '20px'],
@@ -435,6 +523,28 @@ var symbols = {
                 ["style", "left", '287px'],
                 ["style", "width", '100px']
             ],
+            "${_images-1}": [
+                ["style", "top", '110px'],
+                ["style", "height", '31px'],
+                ["style", "opacity", '0.000000'],
+                ["style", "left", '51px'],
+                ["style", "width", '100px']
+            ],
+            "${_Text8}": [
+                ["style", "top", '31.67%'],
+                ["style", "font-size", '23px'],
+                ["style", "height", '8.5%'],
+                ["style", "opacity", '0.000000'],
+                ["style", "left", '32.18%'],
+                ["style", "width", '5.68%']
+            ],
+            "${_sing}": [
+                ["style", "top", '81px'],
+                ["style", "height", '141px'],
+                ["style", "opacity", '0.000000'],
+                ["style", "left", '258px'],
+                ["style", "width", '251px']
+            ],
             "${_imgres-3}": [
                 ["style", "top", '114px'],
                 ["style", "height", '23px'],
@@ -442,24 +552,19 @@ var symbols = {
                 ["style", "left", '287px'],
                 ["style", "width", '100px']
             ],
-            "${_Text}": [
-                ["style", "font-weight", '900'],
-                ["style", "left", '11.64%'],
-                ["style", "width", '75.91%'],
-                ["style", "top", '46.33%'],
-                ["style", "text-align", 'center'],
-                ["style", "height", '21.51%'],
-                ["style", "font-family", '\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif'],
+            "${_imgres-13}": [
+                ["style", "top", '63px'],
+                ["style", "height", '30px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "font-size", '15px']
+                ["style", "left", '287px'],
+                ["style", "width", '100px']
             ],
-            "${_Text2}": [
-                ["style", "top", '52.67%'],
-                ["style", "font-size", '15px'],
-                ["style", "height", '11%'],
+            "${_imgres-12}": [
+                ["style", "top", '63px'],
+                ["style", "height", '30px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '7.64%'],
-                ["style", "width", '84%']
+                ["style", "left", '398px'],
+                ["style", "width", '100px']
             ],
             "${_Text17}": [
                 ["style", "top", '31.67%'],
@@ -498,12 +603,16 @@ var symbols = {
                 ["style", "left", '18px'],
                 ["style", "width", '514px']
             ],
-            "${_images-1}": [
-                ["style", "top", '110px'],
-                ["style", "height", '31px'],
+            "${_Text}": [
+                ["style", "font-weight", '900'],
+                ["style", "left", '11.64%'],
+                ["style", "width", '75.91%'],
+                ["style", "top", '46.33%'],
+                ["style", "text-align", 'center'],
+                ["style", "height", '21.51%'],
+                ["style", "font-family", '\'ヒラギノ明朝 Pro W3\', \'Hiragino Mincho Pro\', ＭＳＰ明朝, \'MS PMincho\', serif'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '51px'],
-                ["style", "width", '100px']
+                ["style", "font-size", '15px']
             ],
             "${_Text12}": [
                 ["style", "top", '31.67%'],
@@ -521,25 +630,29 @@ var symbols = {
                 ["style", "max-width", '900px'],
                 ["style", "width", '550px']
             ],
-            "${_imgres-13}": [
-                ["style", "top", '63px'],
-                ["style", "height", '30px'],
+            "${_Text2}": [
+                ["style", "top", '52.67%'],
+                ["style", "font-size", '15px'],
+                ["style", "height", '11%'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '287px'],
-                ["style", "width", '100px']
+                ["style", "left", '7.64%'],
+                ["style", "width", '84%']
             ],
-            "${_imgres-8}": [
-                ["style", "top", '152px'],
-                ["style", "height", '41px'],
+            "${_Text14}": [
+                ["style", "top", '31.67%'],
+                ["style", "font-size", '23px'],
+                ["style", "height", '14.75%'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '393px'],
-                ["style", "width", '111px']
+                ["style", "left", '60.18%'],
+                ["style", "width", '5.85%']
             ],
-            "${_Text18}": [
-                ["style", "top", '27px'],
+            "${_Text21}": [
+                ["style", "top", '32px'],
                 ["style", "opacity", '0.000000'],
-                ["style", "left", '79px'],
-                ["style", "font-size", '23px']
+                ["style", "height", '31px'],
+                ["style", "font-weight", '900'],
+                ["style", "left", '-16px'],
+                ["style", "font-size", '22px']
             ]
         }
     },
@@ -547,18 +660,22 @@ var symbols = {
         "Default Timeline": {
             fromState: "Base State",
             toState: "",
-            duration: 6500,
+            duration: 8500,
             autoPlay: true,
             timeline: [
+                { id: "eid281", tween: [ "style", "${_Text20}", "top", '220px', { fromValue: '240px'}], position: 8000, duration: 500 },
                 { id: "eid97", tween: [ "style", "${_imgres-11}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
                 { id: "eid206", tween: [ "style", "${_imgres-11}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
                 { id: "eid66", tween: [ "style", "${_map}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid245", tween: [ "style", "${_Text21}", "opacity", '1', { fromValue: '0.000000'}], position: 7500, duration: 500 },
+                { id: "eid242", tween: [ "style", "${_Cebu-1}", "opacity", '1', { fromValue: '0.000000'}], position: 7000, duration: 500 },
                 { id: "eid101", tween: [ "style", "${_images}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
                 { id: "eid207", tween: [ "style", "${_images}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid241", tween: [ "style", "${_Text20}", "opacity", '1', { fromValue: '0.000000'}], position: 7000, duration: 500 },
                 { id: "eid11", tween: [ "style", "${_Text10}", "opacity", '1', { fromValue: '0.000000'}], position: 1417, duration: 250 },
                 { id: "eid80", tween: [ "style", "${_Text10}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
-                { id: "eid114", tween: [ "style", "${_imgres-1}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
-                { id: "eid214", tween: [ "style", "${_imgres-1}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid110", tween: [ "style", "${_imgres-12}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid208", tween: [ "style", "${_imgres-12}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
                 { id: "eid2", tween: [ "style", "${_Text}", "opacity", '1', { fromValue: '0.000000'}], position: 250, duration: 500 },
                 { id: "eid67", tween: [ "style", "${_Text}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
                 { id: "eid16", tween: [ "style", "${_Text15}", "opacity", '1', { fromValue: '0.000000'}], position: 1833, duration: 250 },
@@ -581,42 +698,49 @@ var symbols = {
                 { id: "eid204", tween: [ "style", "${_imgres-9}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
                 { id: "eid12", tween: [ "style", "${_Text11}", "opacity", '1', { fromValue: '0.000000'}], position: 1500, duration: 250 },
                 { id: "eid72", tween: [ "style", "${_Text11}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid279", tween: [ "style", "${_Text23}", "top", '220px', { fromValue: '239px'}], position: 8000, duration: 500 },
                 { id: "eid93", tween: [ "style", "${_imgres-6}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
                 { id: "eid213", tween: [ "style", "${_imgres-6}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
                 { id: "eid15", tween: [ "style", "${_Text14}", "opacity", '1', { fromValue: '0.000000'}], position: 1750, duration: 250 },
                 { id: "eid78", tween: [ "style", "${_Text14}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
-                { id: "eid10", tween: [ "style", "${_Text9}", "opacity", '1', { fromValue: '0.000000'}], position: 1333, duration: 250 },
-                { id: "eid76", tween: [ "style", "${_Text9}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
-                { id: "eid122", tween: [ "style", "${_Text18}", "opacity", '1', { fromValue: '0.000000'}], position: 4500, duration: 500 },
-                { id: "eid216", tween: [ "style", "${_Text18}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid102", tween: [ "style", "${_imgres-2}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
-                { id: "eid217", tween: [ "style", "${_imgres-2}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid110", tween: [ "style", "${_imgres-12}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
-                { id: "eid208", tween: [ "style", "${_imgres-12}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid105", tween: [ "style", "${_imgres-7}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
-                { id: "eid218", tween: [ "style", "${_imgres-7}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid115", tween: [ "style", "${_imgres-10}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
-                { id: "eid205", tween: [ "style", "${_imgres-10}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid14", tween: [ "style", "${_Text13}", "opacity", '1', { fromValue: '0.000000'}], position: 1667, duration: 250 },
-                { id: "eid68", tween: [ "style", "${_Text13}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
                 { id: "eid9", tween: [ "style", "${_Text8}", "opacity", '1', { fromValue: '0.000000'}], position: 1250, duration: 250 },
                 { id: "eid75", tween: [ "style", "${_Text8}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
-                { id: "eid181", tween: [ "style", "${_Text6}", "opacity", '1', { fromValue: '0.000000'}], position: 4750, duration: 500 },
-                { id: "eid219", tween: [ "style", "${_Text6}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid8", tween: [ "style", "${_Text7}", "opacity", '1', { fromValue: '0.000000'}], position: 1167, duration: 250 },
-                { id: "eid70", tween: [ "style", "${_Text7}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
-                { id: "eid126", tween: [ "style", "${_Text3}", "opacity", '1', { fromValue: '0.000000'}], position: 4750, duration: 500 },
-                { id: "eid212", tween: [ "style", "${_Text3}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid6", tween: [ "style", "${_Text4}", "opacity", '1', { fromValue: '0.000000'}], position: 1000, duration: 250 },
-                { id: "eid71", tween: [ "style", "${_Text4}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid102", tween: [ "style", "${_imgres-2}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid217", tween: [ "style", "${_imgres-2}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid243", tween: [ "style", "${_Text23}", "opacity", '1', { fromValue: '0.000000'}], position: 7000, duration: 500 },
+                { id: "eid10", tween: [ "style", "${_Text9}", "opacity", '1', { fromValue: '0.000000'}], position: 1333, duration: 250 },
+                { id: "eid76", tween: [ "style", "${_Text9}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
                 { id: "eid118", tween: [ "style", "${_imgres-13}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
                 { id: "eid202", tween: [ "style", "${_imgres-13}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
-                { id: "eid13", tween: [ "style", "${_Text12}", "opacity", '1', { fromValue: '0.000000'}], position: 1583, duration: 250 },
-                { id: "eid79", tween: [ "style", "${_Text12}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
-                { id: "eid7", tween: [ "style", "${_Text5}", "opacity", '1', { fromValue: '0.000000'}], position: 1083, duration: 250 },
-                { id: "eid77", tween: [ "style", "${_Text5}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid252", tween: [ "style", "${_Text19}", "opacity", '1', { fromValue: '0.000000'}], position: 8000, duration: 500 },
+                { id: "eid280", tween: [ "style", "${_Cebu-1}", "top", '62px', { fromValue: '81px'}], position: 8000, duration: 500 },
+                { id: "eid253", tween: [ "style", "${_Text22}", "opacity", '1', { fromValue: '0.000000'}], position: 8000, duration: 500 },
                 { id: "eid98", tween: [ "style", "${_imgres-4}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
                 { id: "eid210", tween: [ "style", "${_imgres-4}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid278", tween: [ "style", "${_sing}", "top", '62px', { fromValue: '81px'}], position: 8000, duration: 500 },
+                { id: "eid115", tween: [ "style", "${_imgres-10}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid205", tween: [ "style", "${_imgres-10}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid105", tween: [ "style", "${_imgres-7}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid218", tween: [ "style", "${_imgres-7}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid114", tween: [ "style", "${_imgres-1}", "opacity", '1', { fromValue: '0.000000'}], position: 4000, duration: 250 },
+                { id: "eid214", tween: [ "style", "${_imgres-1}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid14", tween: [ "style", "${_Text13}", "opacity", '1', { fromValue: '0.000000'}], position: 1667, duration: 250 },
+                { id: "eid68", tween: [ "style", "${_Text13}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid8", tween: [ "style", "${_Text7}", "opacity", '1', { fromValue: '0.000000'}], position: 1167, duration: 250 },
+                { id: "eid70", tween: [ "style", "${_Text7}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid181", tween: [ "style", "${_Text6}", "opacity", '1', { fromValue: '0.000000'}], position: 4750, duration: 500 },
+                { id: "eid219", tween: [ "style", "${_Text6}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid13", tween: [ "style", "${_Text12}", "opacity", '1', { fromValue: '0.000000'}], position: 1583, duration: 250 },
+                { id: "eid79", tween: [ "style", "${_Text12}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid6", tween: [ "style", "${_Text4}", "opacity", '1', { fromValue: '0.000000'}], position: 1000, duration: 250 },
+                { id: "eid71", tween: [ "style", "${_Text4}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid122", tween: [ "style", "${_Text18}", "opacity", '1', { fromValue: '0.000000'}], position: 4500, duration: 500 },
+                { id: "eid216", tween: [ "style", "${_Text18}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid126", tween: [ "style", "${_Text3}", "opacity", '1', { fromValue: '0.000000'}], position: 4750, duration: 500 },
+                { id: "eid212", tween: [ "style", "${_Text3}", "opacity", '0', { fromValue: '1'}], position: 5750, duration: 750 },
+                { id: "eid7", tween: [ "style", "${_Text5}", "opacity", '1', { fromValue: '0.000000'}], position: 1083, duration: 250 },
+                { id: "eid77", tween: [ "style", "${_Text5}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 },
+                { id: "eid240", tween: [ "style", "${_sing}", "opacity", '1', { fromValue: '0.000000'}], position: 7000, duration: 500 },
                 { id: "eid18", tween: [ "style", "${_Text17}", "opacity", '1', { fromValue: '0.000000'}], position: 2000, duration: 250 },
                 { id: "eid69", tween: [ "style", "${_Text17}", "opacity", '0', { fromValue: '1'}], position: 3000, duration: 500 }            ]
         }
