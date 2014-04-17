@@ -107,6 +107,14 @@ h3.step3:before{background: #e4c592;}
 h3.step4{border-top: solid 2px #a22b29;}
 h3.step4:before{background: #a22b29;}
 
+#Fixation{
+	position: fixed;
+	width: 200px; height: 300px;
+	top: 50%; right: 0;
+	margin: -100px 0;
+	background: #f7f7f7;
+}
+
 @media only screen and (max-width:959px){
 .voice{
 	width: 48%;
