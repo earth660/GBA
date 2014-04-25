@@ -20,10 +20,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 color:#333;
 font-size:small;
-font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+font-family:"見出ミンMA31";
+font-weight: 900;
 line-height:1.5;
 background:#fff;
-font-weight: 900;
 -webkit-text-size-adjust: none;
 }
 
