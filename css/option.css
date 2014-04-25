@@ -113,10 +113,9 @@ h3.step4:before{background: #a22b29;}
 
 #Fixation{
 	position: fixed;
-	width: 200px; height: 300px;
+	width: 200px; height: 200px;
 	top: 50%; right: 0;
 	margin: -100px 0;
-	background: #f7f7f7;
 }
 
 @media only screen and (max-width:959px){
@@ -136,6 +135,17 @@ h3.step4:before{background: #a22b29;}
 
 .EDGE-7290059{
 	top: 80px;
+}
+
+#Fixation{
+	position: fixed;
+	width: 150px; height: 200px;
+	bottom: 0; right: 0;
+	margin: 150px 0;
+}
+
+#Fixation img{
+	max-width: 150px;
 }
 
 }
