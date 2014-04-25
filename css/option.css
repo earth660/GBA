@@ -20,6 +20,10 @@
 	
 }
 
+section.wrap2{
+	margin-top: 0px;
+}
+
 #choose img{
 	cursor: pointer;
 }
